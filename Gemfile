@@ -8,6 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
+# Specify Ruby version
+ruby '2.3.3', :patchlevel => '222'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
 # Use Postgres as the production Database
